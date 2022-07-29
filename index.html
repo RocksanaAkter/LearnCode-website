@@ -19,40 +19,46 @@
 <body>
     <header class="container">
         <!-- navbar start  -->
-        <nav class="container navbar bg-light fixed-top mb-5">
+        <nav class=" navbar navbar-expand-lg fixed-top bg-light">
             <div class="container-fluid ">
-                <a class="navbar-brand fw-bold fs-3 text-primary">LearnCode</a>
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-info" href="#courses">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-info" href="#">Deals</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-info">Success</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-info" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-info" href="#register">Register</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
 
-                    <button class="btn btn-outline-primary" type="submit">Register</button>
-                </form>
+                <a class="navbar-brand fw-bold fs-3 text-primary me-5">LearnCode</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="#register">Register</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-primary" type="submit">Register</button>
+                    </form>
+                </div>
             </div>
         </nav>
         <!-- navbar end  -->
         <!-- image slider start -->
         <section class="mt-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-
                 <div class="carousel-inner">
                     <div class="carousel-item categories active ">
                         <img src="images/cover/cover-1.png" class="d-block  w-100 rounded" alt="...">
@@ -61,7 +67,7 @@
                                 <h1 class="fw-bold">Get Started Digital Learning</h1>
                                 <p>It's a long established fact that a reader will be distracted by the readable
                                     content of a page when looking at its layout</p>
-                                <button class="p-2 border border-0 rounded bg-info text-light fw-bold fs-5">Get
+                                <button class="btn btn-lg btn-primary text-light fw-bold">Get
                                     Started</button>
                             </div>
                         </div>
@@ -74,20 +80,20 @@
                                 <h1 class="fs-1 fw-bold">Get Started Digital Learning</h5>
                                     <p>It's a long established fact that a reader will be distracted by the readable
                                         content of a page when looking at its layout</p>
-                                    <button class="p-2 border border-0 rounded bg-info text-light fw-bold fs-5">Get
+                                    <button class="btn btn-lg btn-primary text-large fw-bold">Get
                                         Started</button>
                             </div>
                         </div>
 
                     </div>
                     <div class="carousel-item categories ">
-                        <img src="images/cover/cover-3.jpg" class="d-block w-100 rounded" alt="...">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100  rounded" alt="...">
                         <div class="carousel-caption">
                             <div class="text">
                                 <h1 class="fs-1 fw-bold">Get Started Digital Learning</h5>
                                     <p>It's a long established fact that a reader will be distracted by the readable
                                         content of a page when looking at its layout</p>
-                                    <button class="p-2 border border-0 rounded bg-info text-light fw-bold fs-5">Get
+                                    <button class="btn btn-lg btn-primary text-light fw-bold">Get
                                         Started</button>
                             </div>
                         </div>
@@ -124,10 +130,11 @@
         <section id="courses" class="container">
             <div class="row">
                 <div class="col-12 col-md-12 col-sm-12 col-lg-6">
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 w-100">
                         <div class="row g-0">
                             <div class="col-md-4 ">
-                                <img src="images/course/course-1.png" class="img-fluid w-100 rounded-start" alt="...">
+                                <img src="images/course/course-1.png" class="img-fluid w-100 h-100  rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -146,10 +153,11 @@
 
                 </div>
                 <div class="col-12 col-md-12 col-sm-12 col-lg-6">
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 w-100">
                         <div class="row g-0">
                             <div class="col-md-4 ">
-                                <img src="images/course/course-2.png" class="img-fluid w-100 rounded-start " alt="...">
+                                <img src="images/course/course-2.png" class="img-fluid w-100 h-100 rounded-start "
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -167,10 +175,11 @@
 
                 </div>
                 <div class="col-12 col-md-12 col-sm-12 col-lg-6">
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 w-100">
                         <div class="row g-0">
                             <div class="col-md-4 ">
-                                <img src="images/course/course-3.png" class="img-fluid w-100 rounded-start " alt="...">
+                                <img src="images/course/course-3.png" class="img-fluid w-100 h-100 rounded-start "
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -187,10 +196,11 @@
 
                 </div>
                 <div class="col-12 col-md-12 col-sm-12 col-lg-6">
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 w-100">
                         <div class="row g-0">
                             <div class="col-md-4 ">
-                                <img src="images/course/course-4.png" class="img-fluid w-100 rounded-start" alt="...">
+                                <img src="images/course/course-4.png" class="img-fluid w-100 h-100 rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -207,10 +217,11 @@
 
                 </div>
                 <div class="col-12 col-md-12 col-sm-12 col-lg-6">
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 w-100">
                         <div class="row g-0">
                             <div class="col-md-4 ">
-                                <img src="images/course/course-5.png" class="img-fluid w-100 rounded-start" alt="...">
+                                <img src="images/course/course-5.png" class="img-fluid w-100 h-100  rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -227,10 +238,11 @@
 
                 </div>
                 <div class="col-12 col-md-12 col-sm-12 col-lg-6">
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 w-100">
                         <div class="row g-0">
                             <div class="col-md-4 ">
-                                <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start" alt="...">
+                                <img src="images/course/course-6.png" class="img-fluid w-100 h-100 rounded-start"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -298,7 +310,7 @@
         <!-- modal end  -->
         <!-- accordion start  -->
 
-        <section class="container mt-5">
+        <section class="container mt-5 mb-5">
             <div class="   text-center mb-3">
                 <h1 class="fw-bold">Friquently Asked Questions</h1>
                 <p class="text-secondary">It's a long established fact that a reader will be distracted by the
