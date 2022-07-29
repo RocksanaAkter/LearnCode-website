@@ -1,0 +1,8 @@
+.categories img {
+    height: 700px;
+    filter: brightness(60%);
+}
+
+.text {
+    margin-bottom: 190px;
+}
